@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <p>This react app page</p>
+    <p className='border'>This react app page</p>
       
        
     </>

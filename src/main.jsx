@@ -1,10 +1,55 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 
-createRoot(document.getElementById('root')).render(
+import { createBrowserRouter, RouterProvider } from "react-router";
+import Root from "./component/Root/Root.jsx";
+import Home from "./pages/Home/Home.jsx";
+import Banner from "./pages/Banner/Banner.jsx";
+import Picture from "./pages/Picture/Picture.jsx";
+import Rating from "./pages/Rating/Rating.jsx";
+import Trendingapp from "./pages/Trending/Trendingapp.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    Component:Root,
+
+    children:[
+      {
+        index:true,
+        path:"/",
+        Component:Home,
+
+      },
+      {
+        path:'/app',
+        Component:App,
+      },
+      {
+        path:'/banner',
+        Component:Banner
+      },
+      {
+        path:'/picture',
+        Component:Picture
+      },
+      {
+        path:'/rating',
+        Component:Rating
+      },
+      {
+        path:'/trending',
+        Component:Trendingapp
+      },
+    ]
+  },
+]);
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    
+    <RouterProvider router={router} />
+  </StrictMode>
+);
