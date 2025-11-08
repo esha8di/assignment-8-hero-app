@@ -1,12 +1,12 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=800&q=80",
+    "image": "https://i.ibb.co.com/rf6jTGXc/demo-app-1.webp",
     "title": "FocusFlow",
     "companyName": "Zen Labs",
     "id": 1,
     "description": "A productivity app that helps you focus using the Pomodoro technique and background music.",
     "size": 45,
-    "reviews": 3281,
+    "reviews": "3.2K",
     "ratingAvg": 4.6,
     "downloads": "1.2M",
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "Track workouts, calories, and progress with personalized fitness insights.",
     "size": 72,
-    "reviews": 5874,
+    "reviews": "5.8K",
     "ratingAvg": 4.8,
     "downloads": "2.5M",
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "Discover new restaurants, order food online, and track your deliveries in real time.",
     "size": 64,
-    "reviews": 9210,
+    "reviews": "9.2K",
     "ratingAvg": 4.5,
     "downloads": "5.3M",
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Plan and book your next adventure with exclusive travel deals and itineraries.",
     "size": 88,
-    "reviews": 4123,
+    "reviews": "4.1K",
     "ratingAvg": 4.4,
     "downloads": "3.4M",
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "A developer’s tool for code snippets, syntax highlighting, and cloud syncing.",
     "size": 58,
-    "reviews": 2750,
+    "reviews": "2.7K",
     "ratingAvg": 4.7,
     "downloads": "950K",
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "Relax, meditate, and sleep better with guided sessions and soothing soundscapes.",
     "size": 49,
-    "reviews": 6305,
+    "reviews": "6.3K",
     "ratingAvg": 4.9,
     "downloads": "4.1M",
     "ratings": [
@@ -108,111 +108,147 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=800&q=80",
-    "title": "TutorNext",
-    "companyName": "EduWave",
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
+    "title": "ShopEase",
+    "companyName": "NextCart Ltd.",
     "id": 7,
-    "description": "Connect with expert tutors for one‑on‑one online sessions and progress tracking.",
-    "size": 67,
-    "reviews": 4020,
+    "description": "Your all-in-one shopping companion with AI-based product recommendations.",
+    "size": 68,
+    "reviews": "8.4K",
     "ratingAvg": 4.3,
-    "downloads": "2.1M",
+    "downloads": "6.7M",
     "ratings": [
-      { "name": "1 star", "count": 310 },
-      { "name": "2 star", "count": 450 },
-      { "name": "3 star", "count": 720 },
-      { "name": "4 star", "count": 1340 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1330 },
+      { "name": "4 star", "count": 2490 },
+      { "name": "5 star", "count": 3292 }
     ]
   },
   {
-    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "title": "PhotoPix",
-    "companyName": "SnapStudio",
+    "image": "https://images.pexels.com/photos/414886/pexels-photo-414886.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "EcoTrack",
+    "companyName": "GreenTech Co.",
     "id": 8,
-    "description": "Mobile photography made easy: edit, share and store your favourite shots in the cloud.",
+    "description": "Track your carbon footprint, set sustainability goals, and help save the planet.",
     "size": 52,
-    "reviews": 3295,
-    "ratingAvg": 4.5,
-    "downloads": "900K",
+    "reviews": "4.9K",
+    "ratingAvg": 4.7,
+    "downloads": "1.5M",
     "ratings": [
       { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 550 },
-      { "name": "4 star", "count": 1120 },
-      { "name": "5 star", "count": 1125 }
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 2770 }
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
-    "title": "BudgetBuddy",
-    "companyName": "FinTrack Solutions",
+    "image": "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "HealthHub",
+    "companyName": "WellnessTech",
     "id": 9,
-    "description": "Manage your expenses, savings and investments — simple, clean and intuitive dashboard.",
+    "description": "Monitor your vitals, set wellness goals and get daily health insights.",
     "size": 60,
-    "reviews": 1870,
-    "ratingAvg": 4.2,
-    "downloads": "650K",
+    "reviews": "7.1K",
+    "ratingAvg": 4.4,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2050 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4r7j8sb/demo-app-5.webp",
+    "title": "PhotoGenius",
+    "companyName": "SnapMagic",
+    "id": 10,
+    "description": "Professional photo editing tools with AI enhancements and community sharing.",
+    "size": 80,
+    "reviews": "2.4K",
+    "ratingAvg": 4.7,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/276467/pexels-photo-276467.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "EduMate",
+    "companyName": "LearnSphere",
+    "id": 11,
+    "description": "Interactive learning platform for kids and adults, covering STEM and languages.",
+    "size": 55,
+    "reviews": "5.5K",
+    "ratingAvg": 4.3,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 1430 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "GrocerEase",
+    "companyName": "FreshCart Inc.",
+    "id": 12,
+    "description": "Order groceries for home delivery with smart suggestions and real‑time tracking.",
+    "size": 70,
+    "reviews": "6.9K",
+    "ratingAvg": 4.5,
+    "downloads": "4.9M",
     "ratings": [
       { "name": "1 star", "count": 250 },
       { "name": "2 star", "count": 340 },
-      { "name": "3 star", "count": 620 },
-      { "name": "4 star", "count": 460 },
-      { "name": "5 star", "count": 200 }
+      { "name": "3 star", "count": 1020 },
+      { "name": "4 star", "count": 2360 },
+      { "name": "5 star", "count": 2870 }
     ]
   },
   {
-    "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "title": "GreenGarden",
-    "companyName": "EcoLife Apps",
-    "id": 10,
-    "description": "Track your plants, get care notifications, and join a community of green‑thumbs.",
-    "size": 55,
-    "reviews": 1520,
-    "ratingAvg": 4.4,
-    "downloads": "480K",
-    "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 210 },
-      { "name": "3 star", "count": 390 },
-      { "name": "4 star", "count": 460 },
-      { "name": "5 star", "count": 340 }
-    ]
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-    "title": "SafeChat",
-    "companyName": "SecureComm Ltd.",
-    "id": 11,
-    "description": "Encrypted messaging and voice calls with built‑in privacy tools for everyday communication.",
-    "size": 70,
-    "reviews": 2950,
+    "image": "https://i.ibb.co.com/kg5bx4nh/demo-app-6.webp",
+    "title": "Readify",
+    "companyName": "BookWorld",
+    "id": 13,
+    "description": "Your personal library app—track reading, share reviews, and discover new books.",
+    "size": 50,
+    "reviews": "3.3K",
     "ratingAvg": 4.6,
-    "downloads": "1.1M",
+    "downloads": "1.6M",
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 950 },
-      { "name": "5 star", "count": 1230 }
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 470 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 1580 }
     ]
   },
   {
-    "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "title": "MarketMaster",
-    "companyName": "TradeSmart Inc.",
-    "id": 12,
-    "description": "Real‑time stock market insights, portfolio tracking and news for active traders.",
-    "size": 80,
-    "reviews": 2230,
-    "ratingAvg": 4.3,
-    "downloads": "410K",
+    "image": "https://images.pexels.com/photos/319798/pexels-photo-319798.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "EcoJourney",
+    "companyName": "GreenPaths",
+    "id": 14,
+    "description": "Eco‑friendly travel planner with carbon footprint tracking and sustainable tips.",
+    "size": 65,
+    "reviews": "4.8K",
+    "ratingAvg": 4.8,
+    "downloads": "2.9M",
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 450 },
+      { "name": "1 star", "count": 175 },
+      { "name": "2 star", "count": 230 },
       { "name": "3 star", "count": 600 },
-      { "name": "4 star", "count": 580 },
-      { "name": "5 star", "count": 300 }
+      { "name": "4 star", "count": 1570 },
+      { "name": "5 star", "count": 2420 }
     ]
   }
 ]

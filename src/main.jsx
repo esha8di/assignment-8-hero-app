@@ -47,7 +47,13 @@ const router = createBrowserRouter([
         Component:Appdetails,
       },
       {
-        path:"/appdetails/:id",
+        path:'/app',
+        loader:()=>fetch('/newdata.json'),
+        Component:App
+
+      },
+      {
+        path:"/app/appdetails/:id",
         loader:()=>fetch('/newdata.json'),
         Component:Appdetails,
       }
