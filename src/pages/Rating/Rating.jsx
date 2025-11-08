@@ -2,7 +2,7 @@ import React from "react";
 
 const Rating = () => {
   return (
-    <div className="text-center bg-purple-600 text-white rounded-t-4xl md:rounded-t-[0px]">
+    <div className="text-center bg-purple-600 text-white rounded-xl md:rounded-[0px]">
         <p className="font-bold text-2xl p-6">Trusted by Millions, Built for You</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3">

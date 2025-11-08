@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/rf6jTGXc/demo-app-1.webp",
+    "title": "FocusFlow",
+    "companyName": "Zen Labs",
+    "id": 1,
+    "description": "A productivity app that helps you focus using the Pomodoro technique and background music.",
+    "size": 45,
+    "reviews": "3.2K",
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 970 },
+      { "name": "5 star", "count": 1561 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "FitTrack",
+    "companyName": "MoveWell Inc.",
+    "id": 2,
+    "description": "Track workouts, calories, and progress with personalized fitness insights.",
+    "size": 72,
+    "reviews": "5.8K",
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 590 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 3734 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?auto=format&fit=crop&w=800&q=80",
+    "title": "FoodMate",
+    "companyName": "UrbanBite",
+    "id": 3,
+    "description": "Discover new restaurants, order food online, and track your deliveries in real time.",
+    "size": 64,
+    "reviews": "9.2K",
+    "ratingAvg": 4.5,
+    "downloads": "5.3M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 630 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 2410 },
+      { "name": "5 star", "count": 4570 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "Travelio",
+    "companyName": "SkyBound Studios",
+    "id": 4,
+    "description": "Plan and book your next adventure with exclusive travel deals and itineraries.",
+    "size": 88,
+    "reviews": "4.1K",
+    "ratingAvg": 4.4,
+    "downloads": "3.4M",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 1303 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeCraft",
+    "companyName": "DevSphere",
+    "id": 5,
+    "description": "A developer’s tool for code snippets, syntax highlighting, and cloud syncing.",
+    "size": 58,
+    "reviews": "2.7K",
+    "ratingAvg": 4.7,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "MindEase",
+    "companyName": "Serenity Apps",
+    "id": 6,
+    "description": "Relax, meditate, and sleep better with guided sessions and soothing soundscapes.",
+    "size": 49,
+    "reviews": "6.3K",
+    "ratingAvg": 4.9,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 4325 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=80",
+    "title": "ShopEase",
+    "companyName": "NextCart Ltd.",
+    "id": 7,
+    "description": "Your all-in-one shopping companion with AI-based product recommendations.",
+    "size": 68,
+    "reviews": "8.4K",
+    "ratingAvg": 4.3,
+    "downloads": "6.7M",
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1330 },
+      { "name": "4 star", "count": 2490 },
+      { "name": "5 star", "count": 3292 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/414886/pexels-photo-414886.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "EcoTrack",
+    "companyName": "GreenTech Co.",
+    "id": 8,
+    "description": "Track your carbon footprint, set sustainability goals, and help save the planet.",
+    "size": 52,
+    "reviews": "4.9K",
+    "ratingAvg": 4.7,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 2770 }
+    ]
+  }
+]

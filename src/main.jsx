@@ -10,46 +10,53 @@ import Banner from "./pages/Banner/Banner.jsx";
 import Picture from "./pages/Picture/Picture.jsx";
 import Rating from "./pages/Rating/Rating.jsx";
 import Trendingapp from "./pages/Trending/Trendingapp.jsx";
+import Appdetails from "./pages/App details/Appdetails.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component:Root,
+    Component: Root,
 
-    children:[
+    children: [
       {
-        index:true,
-        path:"/",
-        Component:Home,
-
+        index: true,
+        path: "/",
+        loader:()=>fetch('/topapp.json'),
+        Component: Home,
+      },
+      
+      {
+        path: "/banner",
+        Component: Banner,
       },
       {
-        path:'/app',
-        Component:App,
+        path: "/picture",
+        Component: Picture,
       },
       {
-        path:'/banner',
-        Component:Banner
+        path: "/rating",
+        Component: Rating,
       },
       {
-        path:'/picture',
-        Component:Picture
+        path: "/trending",
+        Component: Trendingapp,
       },
       {
-        path:'/rating',
-        Component:Rating
+        path:"/appdetails/:id",
+        loader:()=>fetch('/topapp.json'),
+        Component:Appdetails,
       },
       {
-        path:'/trending',
-        Component:Trendingapp
-      },
-    ]
+        path:"/appdetails/:id",
+        loader:()=>fetch('/newdata.json'),
+        Component:Appdetails,
+      }
+    ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    
     <RouterProvider router={router} />
   </StrictMode>
 );

@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=800&q=80",
+    "title": "FocusFlow",
+    "companyName": "Zen Labs",
+    "id": 1,
+    "description": "A productivity app that helps you focus using the Pomodoro technique and background music.",
+    "size": 45,
+    "reviews": 3281,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 970 },
+      { "name": "5 star", "count": 1561 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "FitTrack",
+    "companyName": "MoveWell Inc.",
+    "id": 2,
+    "description": "Track workouts, calories, and progress with personalized fitness insights.",
+    "size": 72,
+    "reviews": 5874,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 590 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 3734 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?auto=format&fit=crop&w=800&q=80",
+    "title": "FoodMate",
+    "companyName": "UrbanBite",
+    "id": 3,
+    "description": "Discover new restaurants, order food online, and track your deliveries in real time.",
+    "size": 64,
+    "reviews": 9210,
+    "ratingAvg": 4.5,
+    "downloads": "5.3M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 630 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 2410 },
+      { "name": "5 star", "count": 4570 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "Travelio",
+    "companyName": "SkyBound Studios",
+    "id": 4,
+    "description": "Plan and book your next adventure with exclusive travel deals and itineraries.",
+    "size": 88,
+    "reviews": 4123,
+    "ratingAvg": 4.4,
+    "downloads": "3.4M",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 1303 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeCraft",
+    "companyName": "DevSphere",
+    "id": 5,
+    "description": "A developer’s tool for code snippets, syntax highlighting, and cloud syncing.",
+    "size": 58,
+    "reviews": 2750,
+    "ratingAvg": 4.7,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "MindEase",
+    "companyName": "Serenity Apps",
+    "id": 6,
+    "description": "Relax, meditate, and sleep better with guided sessions and soothing soundscapes.",
+    "size": 49,
+    "reviews": 6305,
+    "ratingAvg": 4.9,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 1220 },
+      { "name": "5 star", "count": 4325 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=800&q=80",
+    "title": "TutorNext",
+    "companyName": "EduWave",
+    "id": 7,
+    "description": "Connect with expert tutors for one‑on‑one online sessions and progress tracking.",
+    "size": 67,
+    "reviews": 4020,
+    "ratingAvg": 4.3,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1340 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "PhotoPix",
+    "companyName": "SnapStudio",
+    "id": 8,
+    "description": "Mobile photography made easy: edit, share and store your favourite shots in the cloud.",
+    "size": 52,
+    "reviews": 3295,
+    "ratingAvg": 4.5,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 550 },
+      { "name": "4 star", "count": 1120 },
+      { "name": "5 star", "count": 1125 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "title": "BudgetBuddy",
+    "companyName": "FinTrack Solutions",
+    "id": 9,
+    "description": "Manage your expenses, savings and investments — simple, clean and intuitive dashboard.",
+    "size": 60,
+    "reviews": 1870,
+    "ratingAvg": 4.2,
+    "downloads": "650K",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "GreenGarden",
+    "companyName": "EcoLife Apps",
+    "id": 10,
+    "description": "Track your plants, get care notifications, and join a community of green‑thumbs.",
+    "size": 55,
+    "reviews": 1520,
+    "ratingAvg": 4.4,
+    "downloads": "480K",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "SafeChat",
+    "companyName": "SecureComm Ltd.",
+    "id": 11,
+    "description": "Encrypted messaging and voice calls with built‑in privacy tools for everyday communication.",
+    "size": 70,
+    "reviews": 2950,
+    "ratingAvg": 4.6,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "title": "MarketMaster",
+    "companyName": "TradeSmart Inc.",
+    "id": 12,
+    "description": "Real‑time stock market insights, portfolio tracking and news for active traders.",
+    "size": 80,
+    "reviews": 2230,
+    "ratingAvg": 4.3,
+    "downloads": "410K",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 300 }
+    ]
+  }
+]
