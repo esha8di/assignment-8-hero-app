@@ -12,7 +12,7 @@ const link=[
          <NavLink to='/app'>Apps</NavLink>
     </li>
     <li>
-         <NavLink>Installation</NavLink>
+         <NavLink to='/install'>Installation</NavLink>
     </li>
     </div>
    

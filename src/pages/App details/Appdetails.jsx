@@ -16,11 +16,39 @@ import {
   Bar,
   ResponsiveContainer,
 } from "recharts";
+import { useState } from "react";
+
+import { toast, ToastContainer } from "react-toastify";
+import { setdata } from "../Localstorage/Localstorage";
+import Installapp from "../Installapp/Installapp";
 
 const Appdetails = () => {
   const { id } = useParams();
   const parseid = parseInt(id);
   const datafromdetails = useLoaderData();
+  
+
+  const [installed,setInstalled]=useState('Install')
+
+  // const [installdata,setInstalldata]=useState({})
+
+  const handleinstall=()=>
+  {
+    setInstalled('Installed')
+   
+    setdata(id)
+
+    if(installed=='Installed')
+     toast("App is already Installed")
+    else
+      toast("Installed Successfully")
+
+   
+
+
+    
+   
+  }
 
   const getdatamatchwithid = datafromdetails.find((d) => d.id === parseid);
   const {
@@ -41,7 +69,7 @@ const Appdetails = () => {
     };
   });
 
-  console.log(chartData);
+  // console.log(chartData);
 
   return (
     <div className="  p-3">
@@ -82,8 +110,9 @@ const Appdetails = () => {
               <p className="text-2xl font-bold">{reviews}</p>
             </div>
           </div>
-          <button className="text-white bg-blue-400 rounded  font-bold btn">
-            Install
+          <ToastContainer></ToastContainer>
+          <button onClick={handleinstall} className="text-white bg-blue-400 rounded  font-bold btn">
+            {installed}
           </button>
         </div>
       </div>
@@ -117,6 +146,7 @@ const Appdetails = () => {
         <p>{description}</p>
       </div>
     </div>
+    
   );
 };
 

@@ -11,11 +11,14 @@ import Picture from "./pages/Picture/Picture.jsx";
 import Rating from "./pages/Rating/Rating.jsx";
 import Trendingapp from "./pages/Trending/Trendingapp.jsx";
 import Appdetails from "./pages/App details/Appdetails.jsx";
+import Error from "./pages/Error/Error.jsx";
+import Installapp from "./pages/Installapp/Installapp.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement:<Error></Error>,
 
     children: [
       {
@@ -56,7 +59,13 @@ const router = createBrowserRouter([
         path:"/app/appdetails/:id",
         loader:()=>fetch('/newdata.json'),
         Component:Appdetails,
+      },
+      {
+        path:"/install",
+        loader:()=>fetch('/newdata.json'),
+        Component:Installapp,
       }
+      
     ],
   },
 ]);
