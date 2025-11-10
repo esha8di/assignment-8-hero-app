@@ -20,10 +20,12 @@ A web application to browse, view, and install productive apps. Built with React
 - React Router
 - HTML & CSS
 
-## Screenshots
+## Built With
 
-![Homepage](link-to-homepage-screenshot.png)
-![App Details](link-to-hero-details-screenshot.png)
+- ES6 JavaScript features (let, const, arrow functions, template literals, etc.)
+- React with Functional Components and Hooks (useState, useEffect, etc.)
+- HTML5 & CSS3
+- Progressive Web App (PWA) capabilities
 
 
 ## Live Demo
