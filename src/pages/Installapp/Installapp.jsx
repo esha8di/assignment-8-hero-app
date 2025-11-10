@@ -21,13 +21,13 @@ const Installapp = () => {
    console.log(type)
 
    if(type==='HtoL'){
-    const sortHtoL=[...list].sort((a,b)=>a.downloads-b.downloads)
+    const sortHtoL=[...list].sort((a,b)=>a.ratingAvg-b.ratingAvg)
     setList(sortHtoL)
     console.log(list)
    }
    if(type==='LtoH')
    {
-     const sortHtoL=[...list].sort((a,b)=>b.downloads-a.downloads)
+     const sortHtoL=[...list].sort((a,b)=>b.ratingAvg-a.ratingAvg)
     setList(sortHtoL)
    }
 

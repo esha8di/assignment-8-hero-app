@@ -4,7 +4,7 @@ import iconrating from "../../assets/icon-ratings.png"
 import { Link } from "react-router";
 
 const Topapp = ({ app }) => {
-  const { id,title, companyName, downloads, image, ratingAvg } = app;
+  const { id,title,  downloads, image, ratingAvg } = app;
   return (
     
        <Link to={`appdetails/${id}`} className="grid grid-rows-[70%_30%] md:grid-rows-[75%_25%] p-2 bg-white rounded-xl ">
@@ -13,17 +13,17 @@ const Topapp = ({ app }) => {
       </div>
       <div className="flex flex-col justify-between">
         <p>
-          {companyName} : {title}
+          {title}
         </p>
         <div className="flex justify-between pb-2 ">
             <button className="btn flex text-green-700">
-                <span><img className="w-[15px]" src={dowload} alt="" /></span>
+                <span><img className="h-[15px]" src={dowload} alt="" /></span>
                  <p>
             {downloads}</p>
 
             </button>
             <button className="btn flex text-yellow-600">
-                <span><img className="w-[15px]" src={iconrating} alt="" /></span>
+                <span><img className="h-[15px]" src={iconrating} alt="" /></span>
                  <p>
             {ratingAvg}</p>
 
