@@ -29,7 +29,7 @@ const setdata=(id)=>{
 
 const remove=(id)=>{
     const storedata=getdata()
-    const updatedata=storedata.filter(data=> data!==Number(id))
+    const updatedata=storedata.filter(data=> data!=Number(id))
     localStorage.setItem("read",JSON.stringify(updatedata))
 
     console.log(updatedata)
