@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router";
 import "./App.css";
 import Topapp from "./pages/Topapp/Topapp";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Errorapp from "./pages/Errorapp/Errorapp";
 
 function App() {
@@ -62,8 +62,8 @@ function App() {
         </div> */}
          
         </div>
-
-        {storematchdata && storematchdata.length > 0 ? (
+         <Suspense fallback={<p>Loading</p>}>
+           {storematchdata && storematchdata.length > 0 ? (
   <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-2 p-2">
     {storematchdata.map((app) => (
       <Topapp key={app.id} app={app} />
@@ -72,6 +72,9 @@ function App() {
 ) : (
   <Errorapp />
 )}
+
+         </Suspense>
+      
 
       </div>
     </>

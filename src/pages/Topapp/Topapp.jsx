@@ -26,6 +26,7 @@ const Topapp = ({ app }) => {
                 <span><img className="h-[15px]" src={iconrating} alt="" /></span>
                  <p>
             {ratingAvg}</p>
+            
 
             </button>
          
