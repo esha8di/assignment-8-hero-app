@@ -1,14 +1,16 @@
 # Hero App
 
-A fully functional web application built with **React JS** to manage and display hero profiles. The app features a responsive design, interactive UI, and can be installed locally or accessed online.
+A web application to browse, view, and install productive apps. Built with React JS, Tailwind CSS, JavaScript, and React Router. The platform showcases trending apps, all applications, installed apps, and detailed app information.
 
 ## Features
 
-- Display a list of hero profiles with images and details
-- Search and filter heroes by name or category
-- Installable as a web app
-- Responsive layout using Tailwind CSS
-- Navigation between pages using React Router
+- Homepage: Highlights trending apps and displays key statistics
+- All Applications Page: Browse all available apps with sorting and filtering options
+- Installed Apps Page: View and manage your installed applications
+- App Details Page: View app ratings, descriptions, and statistics
+- Error Handling Pages: Custom 404 page and "App Not Found" page
+- Responsive Design: Optimized for both mobile and desktop screens
+- Installable Apps: Supports PWA features for local installation
 
 ## Technologies Used
 
@@ -21,7 +23,13 @@ A fully functional web application built with **React JS** to manage and display
 ## Screenshots
 
 ![Homepage](link-to-homepage-screenshot.png)
-![Hero Details](link-to-hero-details-screenshot.png)
+![App Details](link-to-hero-details-screenshot.png)
+
+
+## Live Demo
+
+Check out the live version of Hero App here:  
+[View Live App](https://heroappesha.netlify.app/)
 
 ## Installation
 
